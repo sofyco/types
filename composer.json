@@ -1,0 +1,36 @@
+{
+    "name": "sofyco/types",
+    "type": "symfony-bundle",
+    "version": "1.0.0",
+    "description": "Common enums and models",
+    "keywords": ["php", "enum", "model"],
+    "homepage": "https://github.com/sofyco/types",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sofiia Korzhova",
+            "email": "sofykorzhova@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.5"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^13.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sofyco\\Types\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sofyco\\Types\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
