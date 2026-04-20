@@ -20,10 +20,10 @@ final class DateRangeTest extends TestCase
     #[Test]
     public function itCalculatesCustomMonthRange(): void
     {
-        $dateRange = new DateRange('202401-202402');
+        $dateRange = new DateRange('20260401-20260412');
 
-        self::assertSame(new \DateTimeImmutable('2024-01 midnight')->format('Y-m-d H:i:s.u'), $dateRange->getStartDate()->format('Y-m-d H:i:s.u'));
-        self::assertSame(new \DateTimeImmutable('2024-02 23:59:59.999999')->format('Y-m-d H:i:s.u'), $dateRange->getEndDate()->format('Y-m-d H:i:s.u'));
+        self::assertSame(new \DateTimeImmutable('2026-04-01 midnight')->format('Y-m-d H:i:s.u'), $dateRange->getStartDate()->format('Y-m-d H:i:s.u'));
+        self::assertSame(new \DateTimeImmutable('2026-04-12 23:59:59.999999')->format('Y-m-d H:i:s.u'), $dateRange->getEndDate()->format('Y-m-d H:i:s.u'));
     }
 
     #[Test]

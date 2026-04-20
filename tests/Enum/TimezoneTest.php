@@ -18,6 +18,6 @@ final class TimezoneTest extends TestCase
     #[Test]
     public function itReturnsNullWhenCountryHasNoTimezoneMapping(): void
     {
-        self::assertNull(Timezone::findByCountry(Country::CUBA));
+        self::assertNull(Timezone::findByCountry(Country::ALAND_ISLANDS));
     }
 }
