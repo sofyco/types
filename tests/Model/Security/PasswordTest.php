@@ -11,6 +11,6 @@ final class PasswordTest extends TestCase
     #[Test]
     public function generation(): void
     {
-        self::assertSame(expected: 12, actual: mb_strlen(Password::generate(length: 12)));
+        self::assertSame(12, mb_strlen(Password::generate(length: 12)));
     }
 }
