@@ -1,7 +1,7 @@
 {
     "name": "sofyco/types",
     "type": "symfony-bundle",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Common enums and models",
     "keywords": ["php", "enum", "model"],
     "homepage": "https://github.com/sofyco/types",
