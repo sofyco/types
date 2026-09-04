@@ -517,6 +517,7 @@ enum Country: string
         Country::BENIN->value => Language::FRENCH,
         Country::BERMUDA->value => Language::ENGLISH,
         Country::BOLIVIA->value => Language::SPANISH,
+        Country::BOSNIA_AND_HERZEGOVINA->value => Language::BOSNIAN,
         Country::BOTSWANA->value => Language::ENGLISH,
         Country::BRAZIL->value => Language::PORTUGUESE,
         Country::BRITISH_INDIAN_OCEAN_TERRITORY->value => Language::ENGLISH,
